@@ -4,11 +4,963 @@
     <meta charset="UTF-8">
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:700&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./style.css">
+    <script src="https://use.fontawesome.com/729dceb01f.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    
+    <header>
+      <div class="container-fluid header-top">
+        <div class="row align-items-end">
+          <div class="header-top-left col-4">
+            <date>Mon, Jul 08, 2019</date>
+          </div>
+          <div class="main-logo col-4">Newsweek</div>
+          <div class="header-top-right col-4 text-right">
+            <span class="uppercase title-font bold">sign in</span>
+            <button class="inverted-class-box uppercase bold">Subscribe <i class="fa fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="header-bottom clearfix">
+          <ul class="nav nav-fill">
+            <li class="nav-item"><a href="#" class="hover-link">U.S.</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">World</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Business</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Tech & Science</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Culture</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Sports</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Health</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Opinion</a></li>
+            <li class="nav-item"><a href="#" class="hover-link">Vantage</a></li>
+            <div class="nav-item search">Search <i class="fa fa-search"></i></div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="sticky-nav">
+      <div class="left sticky-logo">Newsweek</div>
+      <nav class="navbar right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars fa-lg toggle-button"></i>
+        </button>
+      </nav>
+      <div class="sticky-register right">
+        <span class="uppercase title-font bold">sign in</span>
+        <button class="inverted-class-box uppercase bold">Subscribe <i class="fa fa-chevron-right"></i></button>
+      </div>
+      
+
+
+      <div class="collapse floating-nav" id="navbarToggleExternalContent">
+        <ul>
+          <div class="search sticky-search">Search <i class="fa fa-search"></i></div>
+          <a href="#" class="float-link"><li>U.S.</li></a>
+          <a href="#" class="float-link"><li>World</li></a>
+          <a href="#" class="float-link"><li>Business</li></a>
+          <a href="#" class="float-link"><li>Tech & Science</li></a>
+          <a href="#" class="float-link"><li>Culture</li></a>
+          <a href="#" class="float-link"><li>Sports</li></a>
+          <a href="#" class="float-link"><li>Health</li></a>
+          <a href="#" class="float-link"><li>Opinion</li></a>
+          <a href="#" class="float-link"><li>Vantage</li></a>
+        </ul>
+
+      </div>
+      
+    </div>
+
+    <div class="main container-fluid">
+      <div class="row hero">
+        <div class="column1 col-lg container-fluid">
+          <div class="row">
+            <div class="top-story col-md-7 order-md-2">
+                <div class="block uppercase gray">top story</div>
+                <div class="card no-border">
+                  <div class="img-wrapper">
+                    <img src="assets/1.jpg" alt="" class="card-img-top">
+                    <div class="img-overlay">
+                      U.S.
+                    </div>
+                  </div>
+                    <h3><a href=#>ICE, FBI Use State Driver's License Photos for Facial-Recognition Searches</a></h3>
+                    <p>
+                      The federal agencies have accessed millions of Americans' photos without their knowledge in what many are calling a privacy scandal. There are concerns, in particular, that the practice targets undocumented immigrants.
+                    </p>
+                </div>
+                <div class="block uppercase gray">more stories</div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m1.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Executions Double in Saudi Arabia, as Activists Accuse Trump of Covering for MBS</a>
+                  </h4>
+                  <p>
+                    At least 122 people have been executed by the Saudi government this year as the royal family intensifies a crackdown on dissenters.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m2.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Which Democrats Are Raking in the Most Money?</a>
+                  </h4>
+                  <p>
+                    President Donald Trump has already raised $105 million for his re-election campaign. The Democratic candidates are scrambling to get close.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m3.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Cruise Ship Narrowly Misses Venice Passenger Dock During Violent Hail Storm</a>
+                  </h4>
+                  <p>
+                    The incident occurred a month after another huge cruise vessel crashed into a tourist boat on one of the Italian city's main waterways.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m4.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Russia's 'Invulnerable' Satan 2 Nuclear Missile Will Be Ready by 2020</a>
+                  </h4>
+                  <p>
+                    The RS-28 Sarmat is reportedly able to carry a nuclear payload capable of destroying an area the size of Texas.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m5.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Republican Fundraiser Being Investigated Over Foreign Business Deals</a>
+                  </h4>
+                  <p>
+                    According to the Associated Press, the U.S. Attorney's Office in Brooklyn sent a subpoena to President Donald Trump's inaugural committee seeking records connected with Elliott Broidy.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m6.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Pompeii: 10 Unexploded WWII Bombs Hidden Within Foundations</a>
+                  </h4>
+                  <p>
+                    The city, preserved in time after the eruption of Vesuvius in A.D. 79, receives over 2.5 million tourists a year.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m7.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Where to Watch Women's World Cup Celebrations</a>
+                  </h4>
+                  <p>
+                    USWNT became the first team in the history of the FIFA Women's World Cup to successfully defend the title after beating the Netherlands 2-0 on Sunday.
+                  </p>
+                </div>
+                <div class="top-item bottom-border">
+                  <div class="top-img">
+                    <img src="assets/m8.jpg" alt="" class="left img-fluid">
+                  </div>
+                  <h4>
+                    <a href="#">Senator Says 'Largest Child Prison in American History' Being Established</a>
+                  </h4>
+                  <p>
+                    "And the company's being paid $750 a day to lock up children, no incentive to get them into homes," Senator Jeff Merkley said.
+                  </p>
+                </div>
+              </div>
+            <div class="featured-story col-md-5 order-md-1">
+              <div class="block uppercase gray">featured stories</div>
+              <div class="featured-item card no-border">
+                <div class="img-wrapper">
+                  <img src="assets/f1.png" alt="" class="card-img-top">
+                  <div class="img-overlay">
+                    Analysis
+                  </div>
+                </div>
+                <h3><a href=#>Best Business Tools 2019</a></h3>
+                <p>
+                  Working with Statista Inc., the globally recognized data research company, Newsweek has produced an authoritative list of America's Best Business Tools.
+                </p>
+              </div>
+              <div class="featured-item card no-border">
+                <div class="img-wrapper">
+                  <img src="assets/f2.jpg" alt="" class="card-img-top">
+                  <div class="img-overlay">
+                    U.S.
+                  </div>
+                </div>
+                <h3><a href=#>Jeffrey Epstein Indictment Casts Shadow Over Circle of Rich, Powerful Friends</a></h3>
+                <p>
+                  The new criminal charges against Epstein have potential implications for high-profile political figures, including Presidents Donald Trump and Bill Clinton.
+                </p>
+              </div>
+              <div class="featured-item card no-border">
+                <div class="img-wrapper">
+                  <img src="assets/f3.jpg" alt="" class="card-img-top">
+                  <div class="img-overlay">
+                    News
+                  </div>
+                </div>
+                <h3><a href=#>Iran's Leaders Risk 'End of Their Regime' If They Pursue Nukes: Ex-General</a></h3>
+                <p>
+                  President Donald Trump said Sunday Iran had "better be careful" with its expansion of enriched uranium production.
+                </p>
+              </div>
+              <div class="featured-item card no-border">
+                <div class="img-wrapper">
+                  <img src="assets/f4.jpg" alt="" class="card-img-top">
+                  <div class="img-overlay">
+                    Tech & Science
+                  </div>
+                </div>
+                <h3><a href=#>Skywatcher Snaps Picture of Top-Secret U.S. Air Force X-37B Space Plane</a></h3>
+                <p>
+                  The robotic aircraft was built by aerospace manufacturer Boeing and resembles the well-known space shuttle in shape, although it is much smaller.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="column2 col-lg-4">
+          <div class="block uppercase gray">opinion</div>
+          <div class="opinion">
+            <div class="opinion-item bottom-border">
+              <div class="opinion-img"><img src="assets/o1.png"></div>
+              <h4><a href="#" class="hover-link">It's Not About Right vs. left img-fluid. It's About Reclaiming American Democracy</a></h4>
+              <p class="uppercase gray byline">By Robert Reich</p>
+            </div>
+            <div class="opinion-item bottom-border">
+              <div class="opinion-img"><img src="assets/o2.png"></div>
+              <h4><a href="#" class="hover-link">My Country Is Not a Dumping Ground for Your Garbage</a></h4>
+              <p class="uppercase gray byline">By Yeo Bee Yin</p>
+            </div>
+            <div class="opinion-item bottom-border">
+              <div class="opinion-img"><img src="assets/o3.png"></div>
+              <h4><a href="#" class="hover-link">The Cruel Dishonesty of Alexandria Ocasio-Cortez</a></h4>
+              <p class="uppercase gray byline">By Newt Gingrich</p>
+            </div>
+            <div class="opinion-item bottom-border">
+              <div class="opinion-img"><img src="assets/o4.png"></div>
+              <h4><a href="#" class="hover-link">As You Celebrate Your Freedom, Remember Julian Assange </a></h4>
+              <p class="uppercase gray byline">By Nils Melzer</p>
+            </div>
+            <div class="opinion-item bottom-border">
+              <div class="opinion-img"><img src="assets/o5.png"></div>
+              <h4><a href="#" class="hover-link">Statue of Liberty in Saudi? A Perfect Symbol of the Trump-MBS Bromance</a></h4>
+              <p class="uppercase gray byline">By Anthony Harwood</p>
+            </div>
+            <div class="opinion-item bottom-border">
+              <div class="opinion-img"><img src="assets/o6.png"></div>
+              <h4><a href="#" class="hover-link">America: Love It or, Well, Love It</a></h4>
+              <p class="uppercase gray byline">By Peter Roff</p>
+            </div>
+          </div>
+          <div class="block uppercase gray">latest news</div>
+          <div class="latest">
+            <div class="latest-item bottom-border clearfix">
+              <div class="top-img">
+                <img src="assets/l1.jpg" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">Hometown Dates Led Hannah to an Unexpected Decision on 'The Bachelorette'</a>
+              </h4>
+            </div>
+            <div class="latest-item bottom-border clearfix">
+              <div class="top-img">
+                <img src="assets/l2.jpg" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">White Men's Electability Advantage is a Myth | Opinon</a>
+              </h4>
+            </div>
+            <div class="latest-item bottom-border clearfix">
+              <div class="top-img">
+                <img src="assets/l3.jpg" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">Florida Man Removes Shark Tooth From Leg, 25 Years After Being Bitten</a>
+              </h4>
+            </div>
+            <div class="latest-item bottom-border clearfix">
+              <div class="top-img">
+                <img src="assets/l4.png" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">Donald Trump Tweets Fake Ronald Reagan Quote About Himself</a>
+              </h4>
+            </div>
+            <div class="latest-item bottom-border clearfix">
+              <div class="top-img">
+                <img src="assets/l5.jpg" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">Arsonist Sets Himself on Fire While Trying to Burn Down Synagogue</a>
+              </h4>
+            </div>
+            <div class="latest-item bottom-border clearfix">
+              <div class="top-img">
+                <img src="assets/l6.jpg" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">Isis Terrorist Involved in Paris Attacks Awarded Compensation</a>
+              </h4>
+            </div>
+            <div class="latest-item bottom-border clearfix clearfix">
+              <div class="top-img">
+                <img src="assets/l7.jpg" alt="" class="left img-fluid">
+              </div>
+              <h4>
+                <a href="#" class="hover-link">Coco Gauff Crashes Out of Wimbledon: What's Next for Rising Tennis Star?</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row magazine">
+        <div class="row col-12">
+          <div class="col-md-3">
+            <div class="img-wrapper">
+              <img src="assets/cover.jpg" alt="" class="">
+              <div class="img-overlay">July 19 Issue</div>
+            </div>
+          </div>
+          <div class="col-md-9 container-fluid">
+            <div class="section-header uppercase center"><div class="icon">N</div>In The Magazine</div>
+            <div class="row">
+              <div class="col-md-4 magazine-item">
+                <div class="card no-border">
+                  <img src="assets/mag1.jpg" alt="" class="card-img-top">
+                  <div class="uppercase bold red title">
+                    <span class="class-box">Cover</span> Tech & Science
+                  </div>
+                  <h4>
+                    <a href=#>Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-4 magazine-item">
+                <div class="card no-border">
+                  <img src="assets/mag2.jpg" alt="" class="card-img-top">
+                  <div class="uppercase bold red title">
+                    <span class="class-box">features</span> World
+                  </div>
+                  <h4>
+                    <a href=#>Bottle X: Exposing Impurities in the Generic Drug Business</a>
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-4 magazine-item">
+                <div class="card no-border">
+                  <img src="assets/mag3.jpg" alt="" class="card-img-top">
+                  <div class="uppercase bold red title">
+                    Tech & Science
+                  </div>
+                  <h4>
+                    <a href=#>Permanent Record: A Billion Year Archive Stored in the Solar System</a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row col">
+          <div class="col-md-3 magazine-item">
+            <div class="card no-border">
+              <img src="assets/mag4.jpg" alt="" class="card-img-top">
+              <div class="uppercase bold red title">
+                Culture
+              </div>
+              <h4>
+                <a href=#>One Giant Leap: 5 U.S. Destinations That Helped Put Man on the Moon</a>
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 magazine-item">
+            <div class="card no-border">
+              <img src="assets/mag5.jpg" alt="" class="card-img-top">
+              <div class="uppercase bold red title">
+                Culture
+              </div>
+              <h4>
+                <a href=#>Celebrate National Rosé Day With 13 of the Best Bottles on the Market</a>
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 magazine-item">
+            <div class="card no-border">
+              <img src="assets/mag6.png" alt="" class="card-img-top">
+              <div class="uppercase bold red title">
+                <span class="class-box">Downtime</span> Culture
+              </div>
+              <h4>
+                <a href=#>Idris Elba Says 'Luther' Season 5 Will be 'Particularly Gnarly'</a>
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 magazine-item">
+            <div class="card no-border">
+              <img src="assets/mag7.jpg" alt="" class="card-img-top">
+              <div class="uppercase bold red title">
+                <span class="class-box">Big shots</span>
+              </div>
+              <h4>
+                <a href=#>A Time To Mourn</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row editors-pick">
+        <div class="col-md">
+          <div class="section-header uppercase center"><div class="icon">N</div>Editor's Picks</div>
+          <div class="row">
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e1.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  Tech & Science
+                </div>
+              </div>
+              <h3><a href=#>Russia Wants to Build 'Large Scale Structures' on the Moon With 3D Printing</a></h3>
+              <p>
+                Russian space agency Roscosmos has said that it wants to establish a lunar base by 2040 as part of a three-stage program.
+              </p>
+            </div>
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e2.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  News
+                </div>
+              </div>
+              <h3><a href=#>Rapinoe Says Women's Soccer Can't Do More to Prove They Deserve Equal Pay</a></h3>
+              <p>
+                "We can't do anything more to impress more, to be better ambassadors, to take on more, to play better, to do anything. It's time to move that conversation forward to the next step," Megan Rapinoe said.
+              </p>
+            </div>
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e3.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  Opinion
+                </div>
+              </div>
+              <h3><a href=#>A Coconut Crisis Is Looming with Major Shortages Expected Worldwide</a></h3>
+              <p>
+                It is estimated that a billion new trees will need to be planted to meet the rising demand.
+              </p>
+            </div>
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e4.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  Politics
+                </div>
+              </div>
+              <h3><a href=#>Trump's Approval Rating Is at It's Highest Ever, Says New Poll</a></h3>
+              <p>
+                  A new poll conducted by the Washington Post and ABC News shows President Donald Trump's approval rating at 44 percent, the highest it's ever been during his presidency.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e5.png" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  U.S.
+                </div>
+              </div>
+              <h3><a href=#>ICE to Begin Deporting 1 Million Undocumented Migrants, Ken Cuccinelli Says</a></h3>
+              <p>
+                Top Trump immigration official Ken Cuccinelli said ICE is set to execute a plan to find, detain and ultimately deport at least one million migrants.
+              </p>
+            </div>
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e6.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  World
+                </div>
+              </div>
+              <h3><a href=#>U.K. Government Stands Behind Ambassador Who Called Trump 'Incompetent'</a></h3>
+              <p>
+                "The British public would expect our ambassadors to provide ministers with an honest, unvarnished assessment of the politics in their country," a spokesperson for the Foreign and Commonwealth Office said.
+              </p>
+            </div>
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e7.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  Politics
+                </div>
+              </div>
+              <h3><a href=#>Pelosi Dismisses Ocasio-Cortez, Omar, Tlaib, Pressley as Just 'Four People'</a></h3>
+              <p>
+                "All these people have their public whatever and their Twitter world," Pelosi said, referring to the four freshman lawmakers. "But they didn't have any following. They're four people and that's how many votes they got."
+              </p>
+            </div>
+            <div class="col-md-3 card editor-item no-border">
+              <div class="img-wrapper">
+                <img src="assets/e8.jpg" alt="" class="card-img-top">
+                <div class="img-overlay">
+                  Politics
+                </div>
+              </div>
+              <h3><a href=#>Trump's Favorite Polling Company Finds Biden Victorious in 2020 Matchup</a></h3>
+              <p>
+                Rasmussen Reports has given Trump generous approval ratings, but in a new head-to-head matchup, they found Biden besting him in 2020.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row slideshows">
+        <div class="col-md">
+          <div class="section-header uppercase center"><div class="icon">N</div>Featured Slideshows</div>
+          <div class="row">
+            <div class="col-md-4 slideshow-item">
+              <div class="card-img-top img-wrapper">
+                <img src="assets/s1.jpg" alt="">
+                <div class="img-overlay"><i class="fa fa-clone red"></i></div>
+              </div>
+              <h3>
+                <a href="#">How to Survive a Walking Safari in Africa</a>
+              </h3>
+            </div>
+            <div class="col-md-4 slideshow-item">
+              <div class="card-img-top img-wrapper">
+                <img src="assets/s2.jpg" alt="">
+                <div class="img-overlay"><i class="fa fa-clone red"></i></div>
+              </div>
+              <h3>
+                <a href="#">Under the Sea: A Diving Bucket List</a>
+              </h3>
+            </div>
+            <div class="col-md-4 slideshow-item">
+              <div class="card-img-top img-wrapper">
+                <img src="assets/s3.jpg" alt="">
+                <div class="img-overlay"><i class="fa fa-clone red"></i></div>
+              </div>
+              <h3>
+                <a href="#">10 Queer Rebellions Before Stonewall</a>
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 slideshow-item">
+              <div class="card-img-top img-wrapper">
+                <img src="assets/s4.jpg" alt="">
+                <div class="img-overlay"><i class="fa fa-clone red"></i></div>
+              </div>
+              <h3>
+                <a href="#">Faith Ringgold Opens Powerful Retrospective in London</a>
+              </h3>
+            </div>
+            <div class="col-md-4 slideshow-item">
+              <div class="card-img-top img-wrapper">
+                <img src="assets/s5.jpg" alt="">
+                <div class="img-overlay"><i class="fa fa-clone red"></i></div>
+              </div>
+              <h3>
+                <a href="#">Six Celebrity Pools that are Making a Splash</a>
+              </h3>
+            </div>
+            <div class="col-md-4 slideshow-item">
+              <div class="card-img-top img-wrapper">
+                <img src="assets/s6.jpg" alt="">
+                <div class="img-overlay"><i class="fa fa-clone red"></i></div>
+              </div>
+              <h3>
+                <a href="#">The Most Dog-Friendly Cities in America</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row category border-bottom">
+        <div class="col-md section-header">
+          <div class="red title title-font">U.S.</div>
+          <div class="row">
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c1-1.jpg" alt="">
+              <h3>
+                <a href="#">Electoral College Should be Abolished: Ex-Romney Strategist</a>
+              </h3>
+            </div>
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c1-2.jpg" alt="">
+              <h3>
+                <a href="#">CBP Sector Chief Claims Migrant Children Arrive Dirty, Refuse to Shower</a>
+              </h3>
+            </div>
+            <div class="col-sm-4">
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c1-3.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Fox News Praised Pelosi For Fighting Against Progressive AOC 'Squad'</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c1-4.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Man Breaks into Florida Home, Lights Fireworks Under Child's Bed as 'Prank'</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c1-5.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Trump Has 'Aways Been a Megalomaniac,' Al Sharpton Says</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row category border-bottom">
+        <div class="col-md section-header">
+          <div class="red title title-font">World</div>
+          <div class="row">
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c2-1.jpg" alt="">
+              <h3>
+                <a href="#">Ivanka Trump to Get Apology for British Memo Calling Administration 'Inept'</a>
+              </h3>
+            </div>
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c2-2.jpg" alt="">
+              <h3>
+                <a href="#">Man Puts on 15 Layers of Clothing Rather Than Pay Airline's Baggage Fee</a>
+              </h3>
+            </div>
+            <div class="col-sm-4">
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c2-3.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Ikea Sued By Worker Fired for Posting Anti-Gay Bible Quotes</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c2-4.png" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Crowd Chants 'F*** Trump' Loudly Behind Fox News Reporter</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c2-5.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Royal Family Releases Baby Archie Christening Photos After Secret Ceremony</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row category border-bottom">
+        <div class="col-md section-header">
+          <div class="red title title-font">Business</div>
+          <div class="row">
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c3-1.jpg" alt="">
+              <h3>
+                <a href="#">'Equal Pay' Women's Soccer Chants Prompt AOC, Aaron Rodgers to Back Demands</a>
+              </h3>
+            </div>
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c3-2.jpg" alt="">
+              <h3>
+                <a href="#">#DumpStarbucks Trends after Police Asked to Leave Coffee Shop Over 'Safety'</a>
+              </h3>
+            </div>
+            <div class="col-sm-4">
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c3-3.png" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Heathrow Puts Pride Ads Near Royal Brunei Check-In to Protest Anti-Gay Law</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c3-4.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Tortilla Shortage: Taco Bell Reduces Menu Selection After Supply Issue</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c3-5.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Nivea Skincare Accused of Homophobia: 'We Don't Do Gay'</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row category border-bottom">
+        <div class="col-md section-header">
+          <div class="red title title-font">Tech & Science</div>
+          <div class="row">
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c4-1.jpg" alt="">
+              <h3>
+                <a href="#">Tamu Massif: World's Biggest Volcano Stripped of Title</a>
+              </h3>
+            </div>
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c4-2.jpg" alt="">
+              <h3>
+                <a href="#">Snowball the Cockatoo Dances like Humans, in a Way Not Even Seen in Monkeys</a>
+              </h3>
+            </div>
+            <div class="col-sm-4">
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c4-3.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Alternative to Einstein's Gravity Could Explain How Galaxies Form</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c4-4.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Weird Ice Daggers in Earth's Highest, Most Extreme Environment Host Life</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c4-5.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Someone Killed a Pregnant Seal by Shooting It Through the Heart</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row category border-bottom">
+        <div class="col-md section-header">
+          <div class="red title title-font">Culture</div>
+          <div class="row">
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c5-1.jpg" alt="">
+              <h3>
+                <a href="#">Baby Archie Christening: Infant Makes First Official Royal Diary Appearance</a>
+              </h3>
+            </div>
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c5-2.jpg" alt="">
+              <h3>
+                <a href="#">9 Best Beer Gardens in Berlin</a>
+              </h3>
+            </div>
+            <div class="col-sm-4">
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c5-3.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Here's How and When to Watch the U.S. Version of 'Love Island'</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c5-4.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Is Hannah Brown Single? Spoilers and Tweets Hint at 'Bachelorette' Drama</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c5-5.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">10 Best Beaches to Surf in the World</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row category border-bottom">
+        <div class="col-md section-header">
+          <div class="red title title-font">Sports</div>
+          <div class="row">
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c6-1.jpg" alt="">
+              <h3>
+                <a href="#">MLB Home Run Derby 2019: How to Watch, Start Time, TV Schedule, Lineup</a>
+              </h3>
+            </div>
+            <div class="col-sm-4 category-lg">
+              <img src="assets/c6-2.jpg" alt="">
+              <h3>
+                <a href="#">Wimbledon 2019: Where to Watch Federer, Nadal, Djokovic Round-of-16 Matches</a>
+              </h3>
+            </div>
+            <div class="col-sm-4">
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c6-3.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Wimbledon 2019: How to Watch Coco Gauff, Serena Williams Round 16 Matches</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c6-4.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Ann Coulter Rebukes U.S. Women's Soccer Team With 'War on Soccer' Tweets</a>
+                </h4>
+              </div>
+              <div class="latest-item bottom-border clearfix">
+                <div class="top-img">
+                  <img src="assets/c6-5.jpg" alt="" class="left img-fluid">
+                </div>
+                <h4>
+                  <a href="#" class="hover-link">Team USA Wins 4th World Cup with 2-0 Victory Over The Netherlands</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row ads">
+        <div class="col-md-7 subscribe clearfix">
+          <div class="red title title-font uppercase">Subscribe</div>
+          <div class="sub-img">
+            <img src="assets/sub.jpg" alt="" class="left img-fluid">
+          </div>
+          <h4>
+            In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+          </h4>
+          <p>
+            All Access + Weekly Delivery. Choose A Membership That's Perfect for You!
+          </p>
+          <button class="class-box uppercase bold">Subscribe <i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="col-md-5 newsletter">
+          <div class="red title title-font uppercase">Newsletter</div>
+          <div class="news-img left" style="background-image: url('assets/news.gif')">
+          </div>
+          <h4>
+            Daily Briefing
+          </h4>
+          <p>
+            Take back your inbox. Sign up for our newsletter and start making sense of the world around you.
+          </p>
+          <button class="class-box uppercase bold">Sign up <i class="fa fa-chevron-right"></i></button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <footer>
+      <div class="footer-top">
+        <div>
+          <span class="logo">Newsweek</span> 
+          <small class="gray">© 2019 Newsweek</small>
+        </div>
+        <div class="right">
+          <div class="social-nav">
+            <ul>
+              <li><i class="fa fa-facebook"></i></li>
+              <li><i class="fa fa-twitter"></i></li>
+              <li><i class="fa fa-instagram"></i></li>
+              <li><i class="fa fa-tumblr"></i></li>
+              <li><i class="fa fa-linkedin"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom container-fluid">
+        <div class="row">
+          <div class="col-md-7 footer-links">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Corrections</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Editorial Guidelines</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Copyright</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">Archive</a></li>
+              <li><a href="#">Announcements</a></li>
+              <li><a href="#">Consent preferences</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 offset-md-1 editions">
+            
+            <ul>
+              Editions:
+              <li><a href="#">U.S. Edition</a></li>
+              <li><a href="#">日本</a></li>
+              <li><a href="#">한국</a></li>
+              <li><a href="#">Pakistan</a></li>
+              <li><a href="#">Polska</a></li>
+              <li><a href="#">România</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script>
